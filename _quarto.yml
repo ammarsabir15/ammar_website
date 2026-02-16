@@ -5,15 +5,25 @@ project:
 website:
   title: "Ammar Sabir Cheema"
   navbar:
-   left:
-     - href: index.qmd
-       text: Home
-     - about.qmd
-     - resources.qmd
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: resources.qmd
+        text: Resources
+      - href: cv/myCV.pdf
+        text: CV
+        target: _blank 
+      - icon: github 
+        href: https://github.com/yourUserName
+        target: _blank
+  page-footer:
+    background: light # or `dark` or omit this option altogether (footer color will match page body color)
+    left: Copyright 2026, Ammar Sabir Cheema
+    right: This website is built with [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
-    theme: 
-      light: minty
-      dark: solar
-    css: styles.css
+    theme: styles.scss
+    toc: true
+    page-layout: full
