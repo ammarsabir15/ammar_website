@@ -5,17 +5,13 @@ project:
 website:
   title: "Ammar Sabir Cheema"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+   left:
+     - href: index.qmd
+       text: Home
+     - about.qmd
+     - resources.qmd
 
 format:
   html:
-    theme:
-      - cosmo
+    theme: cosmo
     css: styles.css
-    toc: true
-    page-layout: full
-
-
