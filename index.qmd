@@ -1,11 +1,18 @@
 ---
 title: "Ammar Sabir Cheema"
+image: media/headshot.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/samanthacsik/
+    - text: GitHub
+      href: https://github.com/ammarsabir15
+    - text: Email
+      href: mailto:ammarsabir15@gmail.com
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+        
+# page content excluded for brevity ~
